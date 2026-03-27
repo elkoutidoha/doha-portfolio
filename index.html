@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doha El Kouti | UI/UX Designer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Doha<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Work</a></li>
+            </ul>
+            <a href="assets/Doha_CV.pdf" target="_blank" class="btn btn-nav">Download CV</a>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content fade-up">
+                <p class="overline">👋 HELLO, I'M DOHA EL KOUTI</p>
+                <h1 class="hero-title">Crafting intuitive & aesthetic digital experiences.</h1>
+                <p class="hero-subtitle">UI/UX Design Student based in Morocco. Passionate about human-centered design, currently seeking an internship to bring ideas to life.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper fade-up delay-1">
+                <div class="blob-shape"></div>
+                <img src="assets/doha.jpeg" alt="Doha El Kouti" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container split-layout">
+            <div class="about-text fade-up">
+                <h2 class="section-title">The Human <br>Touch.</h2>
+                <p class="section-desc">I am a passionate UI/UX design student focused on creating logical, structured, yet beautiful interfaces. Eagerly seeking an internship to apply my skills in user research and interface design.</p>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="date">2024 – Present</span>
+                        <h4>Digital Design (UX)</h4>
+                        <p>Specialized Technician Diploma – CMC Rabat</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">Background</span>
+                        <h4>Physical Sciences</h4>
+                        <p>Baccalaureate</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual fade-up delay-1">
+                <div class="glass-card stat-card">
+                    <h3>Curious.</h3>
+                    <p>Rigorous & Motivated</p>
+                </div>
+                <div class="glass-card stat-card right-align">
+                    <h3>Strategic.</h3>
+                    <p>User-Centered Focus</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section bg-light" id="skills">
+        <div class="container text-center">
+            <h2 class="section-title fade-up">What I Bring to the Table</h2>
+            <p class="section-desc fade-up delay-1 mx-auto">Comprehensive understanding of the UX lifecycle and modern design methodologies.</p>
+            
+            <div class="skills-grid fade-up delay-2">
+                <!-- Skill 1 -->
+                <div class="skill-card hover-lift">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </div>
+                    <h3>UX Research & Strategy</h3>
+                    <p>User Testing, Benchmark & Competitive Analysis, Personas & Empathy Maps.</p>
+                </div>
+                <!-- Skill 2 -->
+                <div class="skill-card hover-lift">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                    </div>
+                    <h3>Architecture & Wireframing</h3>
+                    <p>User Flows, Experience Mapping, Information Architecture.</p>
+                </div>
+                <!-- Skill 3 -->
+                <div class="skill-card hover-lift">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </div>
+                    <h3>UI & Visual Design</h3>
+                    <p>High-fidelity Prototyping, Interactive Mockups, Design Systems.</p>
+                </div>
+            </div>
+
+            <!-- Marquee -->
+            <div class="marquee-container fade-up delay-3">
+                <div class="marquee">
+                    <span>Figma</span>
+                    <span class="dot">•</span>
+                    <span>FigJam</span>
+                    <span class="dot">•</span>
+                    <span>Adobe Photoshop</span>
+                    <span class="dot">•</span>
+                    <span>Adobe Illustrator</span>
+                    <span class="dot">•</span>
+                    <span>Canva</span>
+                    <span class="dot">•</span>
+                    <span>Miro</span>
+                    <span class="dot">•</span>
+                    <!-- Duplicate for infinite scroll loop -->
+                    <span>Figma</span>
+                    <span class="dot">•</span>
+                    <span>FigJam</span>
+                    <span class="dot">•</span>
+                    <span>Adobe Photoshop</span>
+                    <span class="dot">•</span>
+                    <span>Adobe Illustrator</span>
+                    <span class="dot">•</span>
+                    <span>Canva</span>
+                    <span class="dot">•</span>
+                    <span>Miro</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header text-center fade-up">
+                <h2 class="section-title">Case Studies</h2>
+                <p class="section-desc mx-auto">Selected works demonstrating user-centric problem solving.</p>
+            </div>
+
+            <!-- Masonry Gallery -->
+            <div class="masonry-gallery fade-up delay-1">
+                <div class="gallery-item hover-lift"><img src="assets/projet/img-1.jpeg" alt="Project Image 1"></div>
+                <div class="gallery-item hover-lift"><img src="assets/projet/img-2.jpeg" alt="Project Image 2"></div>
+                <div class="gallery-item hover-lift"><img src="assets/projet/img-3.jpeg" alt="Project Image 3"></div>
+                <div class="gallery-item hover-lift"><img src="assets/projet/img-4.jpeg" alt="Project Image 4"></div>
+                <div class="gallery-item hover-lift"><img src="assets/projet/img-5.jpeg" alt="Project Image 5"></div>
+                <div class="gallery-item hover-lift"><img src="assets/projet/img-6.jpeg" alt="Project Image 6"></div>
+                <div class="gallery-item hover-lift"><img src="assets/projet/img-7.jpeg" alt="Project Image 7"></div>
+                <div class="gallery-item hover-lift"><img src="assets/projet/img-8.jpeg" alt="Project Image 8"></div>
+                <div class="gallery-item hover-lift"><img src="assets/projet/img-9.jpeg" alt="Project Image 9"></div>
+                <div class="gallery-item hover-lift"><img src="assets/projet/img-10.jpeg" alt="Project Image 10"></div>
+                <div class="gallery-item hover-lift"><img src="assets/projet/img-11.jpeg" alt="Project Image 11"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer class="footer" id="contact">
+        <div class="container text-center">
+            <h2 class="footer-title fade-up">Let's build something <br>amazing together.</h2>
+            <p class="footer-subtitle fade-up delay-1">Currently open for UI/UX internship opportunities.</p>
+            <div class="footer-cta fade-up delay-2">
+                <a href="mailto:hello@example.com" class="btn btn-massive">Say Hello</a>
+            </div>
+            <div class="footer-bottom fade-up delay-3">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/doha-el-kouti-11073a395" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+                </div>
+                <p class="copyright">Designed with 🩵 by Doha El Kouti &copy; 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Enlarged Image">
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
