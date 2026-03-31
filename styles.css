@@ -13,6 +13,8 @@
     --c-text-secondary: #636E72;
     --c-border: rgba(255, 255, 255, 0.4);
     
+/*social*/
+
     /* Typography */
     --font-primary: 'Inter', sans-serif;
     --font-heading: 'Poppins', sans-serif;
@@ -118,6 +120,9 @@ h1, h2, h3, h4, h5, h6 {
     transition: all var(--transition-fast);
     cursor: none; /* Let custom cursor handle it */
 }
+
+
+
 
 .btn-primary {
     background-color: var(--c-blue);
